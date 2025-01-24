@@ -1,4 +1,4 @@
-module ecom-golang-project
+module github.com/israelowusu/ecom-golang-backend
 
 go 1.23.5
 
