@@ -12,6 +12,11 @@ type Store struct {
 	db *sql.DB
 }
 
+// GetProductsByIDs implements types.ProductStore.
+func (s *Store) GetProductsByIDs(ps []int) ([]types.Product, error) {
+	panic("unimplemented")
+}
+
 func NewStore(db *sql.DB) *Store {
 	return &Store{db: db}
 }
